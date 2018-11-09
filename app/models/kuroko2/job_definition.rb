@@ -142,7 +142,7 @@ class Kuroko2::JobDefinition < Kuroko2::ApplicationRecord
 
   def record_revision(edited_user: nil)
     unless revisions.first.try(:script) == script
-      revisions.new(script: script, user: edited_user, changed_at: Time.current)
+      revisions.new(script: script, user: edited_user, changed_at: Time.current, job_definition: self)
     end
   end
 
