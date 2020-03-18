@@ -44,6 +44,10 @@ default: &default
       client_secret: '<%= ENV["GOOGLE_CLIENT_SECRET"] %>'
       options:
         hd: '<%= ENV["GOOGLE_HOSTED_DOMAIN"] %>'
+    azure_oauth2:
+      client_id: '<%= ENV["AZURE_CLIENT_ID"] %>'
+      client_secret: '<%= ENV["AZURE_CLIENT_SECRET"] %>'
+      tenant_id: '<%= ENV["AZURE_TENANT_ID"] %>'
   extensions:
 #    controller:
 #      - DummyExtension
