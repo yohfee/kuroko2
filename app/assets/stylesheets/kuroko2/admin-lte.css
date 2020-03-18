@@ -3277,6 +3277,25 @@ fieldset[disabled] .btn-linkedin.active {
   color: #007bb6;
   background-color: #ffffff;
 }
+.btn-microsoft {
+  color: #ffffff;
+  background-color: #2f2f2f;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-microsoft:hover,
+.btn-microsoft:focus,
+.btn-microsoft:active,
+.btn-microsoft.active,
+.open .dropdown-toggle.btn-microsoft {
+  color: #ffffff;
+  background-color: #202020;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-microsoft:active,
+.btn-microsoft.active,
+.open .dropdown-toggle.btn-microsoft {
+  background-image: none;
+}
 .btn-tumblr {
   color: #ffffff;
   background-color: #2c4762;

@@ -17,4 +17,10 @@ html.bg-black
           a.btn.btn-social.btn-google-plus href=auth_path("google_oauth2", state: params[:return_to])
             i.fa.fa-google-plus
             span Sign in with Google
+        br
+        p.lead Or sign in with Microsoft account.
+        .text-center
+          a.btn.btn-social.btn-microsoft href=auth_path("azure_oauth2", state: params[:return_to])
+            i.fa.fa-windows
+            span Sign in with Microsoft
       .footer
