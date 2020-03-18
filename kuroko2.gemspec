@@ -41,6 +41,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'dotenv-rails', '~> 0.11.1'
   s.add_dependency 'serverengine', '~> 1.5.7'
   s.add_dependency 'omniauth-google-oauth2', '~> 0.6.0'
+  s.add_dependency 'omniauth-azure-oauth2', '~> 0.0.10'
 
   s.add_dependency 'html-pipeline'
   s.add_dependency 'commonmarker', '>= 0.17.8'
